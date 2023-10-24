@@ -22,7 +22,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3em;
+  height: 100vh;
+  /* margin-top: 3em; */
 }
 
 .card {
