@@ -106,6 +106,7 @@ p {
 
 .active h2 {
   font-weight: 700;
+  transition: all 1s ease-in-out;
 }
 
 .active img {
@@ -138,11 +139,11 @@ p {
   .illustration-desk {
     grid-column: 1/2;
     grid-row: 1/2;
-    background-image: url(./images/bg-pattern-desktop.svg),
-      url(./images/illustration-woman-online-desktop.svg);
+    background-image: url(./images/illustration-woman-online-desktop.svg),
+      url(./images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 155%, 90%;
-    background-position: -352px -160px, -57px 45px;
+    background-size: 90%, 155%;
+    background-position: -57px 45px, -352px -160px;
     display: flex;
   }
   .img-1 {
