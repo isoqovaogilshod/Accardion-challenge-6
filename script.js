@@ -1,7 +1,6 @@
 "use strict";
 
 const btn = document.querySelectorAll(".btn");
-console.log(btn);
 
 btn.forEach(function (button) {
   button.addEventListener("click", function () {
